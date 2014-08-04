@@ -40,15 +40,17 @@
 activate :livereload
 # end
 
-# Blog option
-# activate :blog do |blog|
-
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
 #     "Helping"
 #   end
 # end
+
+###
+# Gem
+###
+require 'slim'
 
 set :css_dir, 'stylesheets'
 
