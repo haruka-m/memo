@@ -37,8 +37,11 @@
 
 # Reload the browser automatically whenever files change
 # configure :development do
-#   activate :livereload
+activate :livereload
 # end
+
+# Blog option
+# activate :blog do |blog|
 
 # Methods defined in the helpers block are available in templates
 # helpers do

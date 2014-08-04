@@ -6,6 +6,8 @@ gem "middleman", "~>3.3.3"
 
 gem "slim"
 
+# gem "middleman-blog"
+
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 
